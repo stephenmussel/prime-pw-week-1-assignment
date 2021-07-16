@@ -9,3 +9,28 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+
+body {
+  background-color: LightCyan
+  font-family: Arial, Helvetica, Sans-serif;
+  margin: 10% 20%;
+
+}
+
+h1 {
+  color: IndianRed;
+  text-align: center;
+}
+
+footer {
+  color: IndianRed;
+}
+
+img {
+  border: 5px solid LightBlue;
+}
+
+p {
+  color: SteelBlue;
+  font-style: italic;
+}

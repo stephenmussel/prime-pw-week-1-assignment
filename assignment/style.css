@@ -11,26 +11,42 @@
 /* Change the font-family of your list */
 
 body {
-  background-color: LightCyan
-  font-family: Arial, Helvetica, Sans-serif;
-  margin: 10% 20%;
-
+  background-color: DarkRed;
 }
 
-h1 {
-  color: IndianRed;
+.header {
+  color: DarkRed;
+  background-color: AliceBlue;
   text-align: center;
+  padding: 1px;
 }
 
-footer {
-  color: IndianRed;
+.centerImage {
+  display: block;
+  background-color: #b96666;
+  width: 500px;
+  border: 5px solid #a84040;
+  padding: 25px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img {
-  border: 5px solid LightBlue;
+h3, li {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  list-style-position: inside;
 }
 
 p {
-  color: SteelBlue;
+  color: DarkRed;
   font-style: italic;
+}
+
+.footer {
+  background-color: AliceBlue;
+  text-align: center;
+  border: 1px solid AliceBlue;
+  margin-top: 5%;
 }

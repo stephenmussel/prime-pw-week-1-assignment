@@ -6,7 +6,7 @@ ls
 
 # 2 - What is the command for changing directories?
 
-cd DirectoryName
+cd
 
 # 3 - What is the command for going "up" a folder (to a parent directory)?
 
@@ -14,15 +14,15 @@ cd ..
 
 # 4 - What is a quick way to create a new folder?
 
-mkdir FolderName
+mkdir
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
 
-The empty folder output would show nothing. The output for a folder containing files would list all the files in that folder like like .html, .js, .css, etc. files.
+The empty folder output would show nothing. The output for a folder containing files would list all the files in that folder.
 
 # 6 - What is a quick way to create a new file?
 
-touch FileName
+touch
 
 # 7 - Run 'git --version' in your terminal. What is the output?
 
@@ -38,4 +38,4 @@ It stages all the files that have been modified or added in the current director
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
 
-git push origin main
+git push -u origin master
